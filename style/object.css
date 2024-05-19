@@ -1,0 +1,24 @@
+h1 {
+    color: white;
+}
+
+.name {
+    position: absolute;
+    top: 30%;
+    font-size: 3rem;
+}
+
+.info {
+    position: absolute;
+    text-align: center;
+    font-size: 1.7rem;
+    letter-spacing: 1.3px;
+}
+
+h3 {
+    color: white;
+    position: absolute;
+    bottom: 20%;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+}

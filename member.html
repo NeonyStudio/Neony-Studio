@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/root.css">
+    <link rel="stylesheet" href="style/member.css">
+    <title>Our Member</title>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <h3 class="name">네오니</h3>
+            <img src="image/neony-profile2.jpg" alt="" class="profile-image" id="neony">
+            <p class="info">
+                Music<br>
+                Virtual<br>
+                Game Dev<br>
+                Video Edit
+            </p>
+        </div>
+        
+        <div class="profile">
+            <h3 class="name">냄비우동</h3>
+            <img src="image/pot-profile.jpg" alt="" class="profile-image">
+            <p class="info">
+                Music
+            </p>
+        </div>
+
+        <div class="profile last-profile">
+            <h3 class="name">지완</h3>
+            <img src="image/jiwani-profile.jpg" alt="" class="profile-image" id="jiwani">
+            <p class="info">
+                Web Dev<br>
+                Game Dev<br>
+                Word Tool Dev<br>
+                Video Edit<br>
+                Modeling
+            </p>
+        </div>
+        
+        <div class="profile">
+            <h3 class="name">정재원</h3>
+            <img src="image/jaewon-profile.jpg" alt="" class="profile-image">
+            <p class="info">
+                Animation<br>
+                Virtual<br>
+                Illustration
+            </p>
+        </div>
+    
+        <div class="profile">
+            <h3 class="name">해로운</h3>
+            <img src="image/hate-profile.jpg" alt="" class="profile-image">
+            <p class="info">
+                Animation
+            </p>
+        </div>
+    
+        <div class="profile">
+            <h3 class="name">스탠</h3>
+            <img src="image/stan-profile.jpg" alt="" class="profile-image">
+            <p class="info">
+                Animation<br>
+                Illustration
+            </p>
+        </div>
+
+    </div>
+
+    <script>
+        let neony = document.getElementById("neony");
+        isDefaultNeony = true
+        neony.onclick = function() {
+            if (isDefaultNeony) {
+                neony.src = "./image/neony-profile.jpg"
+                isDefaultNeony = false
+            } else {
+                neony.src = "./image/neony-profile2.jpg"
+                isDefaultNeony = true
+            }
+        }
+
+        let jiwani = document.getElementById("jiwani");
+        isDefaultJiwani = true
+        jiwani.onclick = function() {
+            if (isDefaultJiwani) {
+                jiwani.src = "./image/jiwani-profile.jpg"
+                isDefaultJiwani = false
+            } else {
+                jiwani.src = "./image/jiwani-profile2.png"
+                isDefaultJiwani = true
+            }
+        }
+    </script>
+</body>
+</html>
